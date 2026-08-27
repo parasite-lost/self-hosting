@@ -9,4 +9,4 @@
       # map exposed backend ports into caddy container
       PodmanArgs=--network=pasta:{{ caddy_pasta_port_map | sort | join(',') }}
     mode: u=rw,g=r,o=
-  notify: Restart caddy
+  notify: Schedule caddy restart
