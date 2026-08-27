@@ -1,0 +1,11 @@
+@www-static host {{ static_website_subdomain }}.{{ host_maindomain }}
+handle @www-static {
+	import authelia_guard
+
+	rewrite / /index.html
+
+	handle {
+	  root /www
+	  file_server
+	}
+}

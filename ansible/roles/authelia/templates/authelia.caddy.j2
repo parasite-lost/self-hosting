@@ -1,0 +1,4 @@
+@authelia host {{ authelia_subdomain }}.{{ host_maindomain }}
+handle @authelia {
+  reverse_proxy 127.0.0.1:{{ authelia_port }}
+}
