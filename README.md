@@ -55,7 +55,7 @@ environment variables; but I'll try to avoid such applications.
 2. ~~fix opencloud~~
 3. filter groups for OIDC claims: https://www.authelia.com/integration/openid-connect/openid-connect-1.0-claims/
 4. run static website as separate user
-5. make authelia configuration modular
+5. ~~make authelia configuration modular~~
 6. general ansible project cleanup
 7. reuse more tasks (create quadlet file, create systemd unit, ...)
 8. custom caddy image builds: https://caddy.community/t/how-to-guide-caddy-v2-cloudflare-dns-01-via-docker/8007
